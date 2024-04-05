@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon --ignore ./out index.js"
+    "devStart": "nodemon --ignore './out' --watch index.js index.js"
   },
   "author": "",
   "license": "ISC",

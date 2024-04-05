@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "mazer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon --ignore ./out index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "labyrinthos": "^1.1.2",
+    "seeded-rand": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
